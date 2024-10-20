@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Playwright files
+playwright-report/
+playwright/.cache/
+playwright/.videos/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
