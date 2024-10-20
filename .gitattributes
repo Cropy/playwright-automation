@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Define line endings for specific files or directories if needed.
+*.js eol=lf
+*.py eol=lf
+*.sh eol=lf
+*.bat eol=crlf
