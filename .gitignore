@@ -2,9 +2,12 @@
 node_modules/
 
 # Playwright files
+blob-report/
+test-results/
 playwright-report/
 playwright/.cache/
 playwright/.videos/
+playwright/.screenshots/
 
 # Coverage directory used by tools like istanbul
 coverage/
