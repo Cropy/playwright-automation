@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "automation using playwright and typescript",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "cucumber-js test"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Cropy (Jeoffrey)",
   "license": "ISC",
   "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
     "@playwright/test": "^1.48.1",
-    "@types/node": "^22.7.7"
+    "@types/node": "^22.7.7",
+    "ts-node": "^10.9.2"
   }
 }
